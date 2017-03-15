@@ -1,0 +1,11 @@
+Tony Phi (85221892)
+Michael Tseng
+
+Q3: 
+
+Performance (in seconds)
+First Run: 16.9
+Second Run: 19.4 
+Third Run: 17.0
+Fourth Run: 43.0
+Fifth Run: 26.3

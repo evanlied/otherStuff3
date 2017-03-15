@@ -1,0 +1,10 @@
+Tony Phi(85221892)
+
+1. How many levels of cache do there appear to be?
+
+	There appears to be 2 levels of caches. 
+	
+2. For each level of cache, what is its capacity (size)? Line size?
+
+	For L1: 32kb Capacity, Line size of 64bytes
+	For L2: 4Mb Capacity, Line size of 512bytes
