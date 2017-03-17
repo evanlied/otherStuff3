@@ -1,11 +1,45 @@
 Tony Phi (85221892)
-Michael Tseng
+Michael Tseng (10288746)
 
 Q3: 
 
-Performance (in seconds)
-First Run: 16.9
-Second Run: 19.4 
-Third Run: 17.0
-Fourth Run: 43.0
-Fifth Run: 26.3
+N = 1024, K = 1024, M = 1024, Block size = 256
+Execution Time (s):
+Trial 1: 61.6827
+Trial 2: 16.9186
+Trial 3: 16.9298
+Trial 4: 61.3737
+Trial 5: 16.9573
+
+f = 2N^3 = 2 * (1024)^3 = 2 * (2^10)^3 = 2 *(2^30) = 2 GFLOPS
+2 GFLOPS/16.9186 s = .1182 GFLOPS/s
+
+Q5:
+
+N = 1024, K = 1024, M = 1024
+Block size = 256
+2 GFLOPS/1.94694 s = 1.027 GFLOPS/s
+Block size = 128
+2 GFLOPS/1.89214 s = 1.057 GFLOPS/s
+Block size = 64
+2 GFLOPS/1.97573 s = 1.012 GFLOPS/s
+Block size = 32
+2 GFLOPS/2.17174 s = .921 GFLOPS/s
+Block size = 16
+2 GFLOPS/2.24542 s = .891 GFLOPS/s
+
+
+
+Q6:
+
+N = 1024, K = 1024, M = 1024
+Block size = 256 
+1.701 GFLOPS/s
+Block size = 128
+1.762 GFLOPS/s
+Block size = 64
+1.653 GFLOPS/s
+Block size = 32
+1.474 GFLOPS/s
+Block size = 16
+1.361 GFLOPS/s
